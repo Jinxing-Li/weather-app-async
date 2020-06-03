@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Jinxing-Li/weather-app-async#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "request": "^2.88.2",
     "yargs": "^15.3.1"
   }

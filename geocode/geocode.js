@@ -11,6 +11,7 @@ const geocodeAddress = (address, callback) => {
      }, (error, response, body) => {
           if (error) {
                callback('Unable to connect Google servers.');
+               callback();
           } else if (body.status === 'ZERO_RESULTS') {
                callback('Unable to find that address.');
           } else if (body.status === 'OK'){
